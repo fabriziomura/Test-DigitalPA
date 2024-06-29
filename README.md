@@ -9,7 +9,6 @@ Clonare il repository e installa le dipendenze:
 - @types/node@20.14.9
 - commander@12.1.0
 
-
 ### Utilizzo
 Per avviare la CLI, esegui: 
 
