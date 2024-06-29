@@ -37,7 +37,7 @@ rl.on("line", (input) => {
 
 
 //rollDice[diceNumber] [sides] default numbers
-export function rollDice(diceNumber: number = 1, sides: number = 6): number{
+function rollDice(diceNumber: number = 1, sides: number = 6): number{
     let tot = 0;
     for(let i = 0; i < diceNumber; i++){
         let num = Math.floor(Math.random() * sides) + 1;
